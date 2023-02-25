@@ -27,6 +27,10 @@ header {
     gap: 23px;
 }
 
+.header-icons img {
+    width: 25px;
+}
+
 .header-icons a {
     display: flex;
     flex-direction: column;
