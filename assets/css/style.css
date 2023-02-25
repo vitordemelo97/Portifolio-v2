@@ -1,0 +1,184 @@
+.navbar {
+    display: none;
+}
+body {
+    width: 100vw;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px -4px 16px rgba(0, 0, 0, 0.25);
+    position: fixed;
+
+}
+
+.header-icons {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 23px;
+}
+
+.header-icons a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(1.2rem + 1px);
+    color: black;
+}
+
+main {
+    padding-top: 80px;
+}
+
+#home {
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    background: url(../images/main.home/homeBackground.png);
+
+    color: white;
+}
+
+#home h1 { 
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(2rem + 1px);
+}
+
+#home p {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(1.2rem + 1px);
+}
+
+#about {
+    width: 100%;
+    height: 1150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+    gap: 40px;
+
+    margin-top: 40px;
+
+}
+
+.about-content {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(2rem + 1px);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+section p, footer p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(0.8rem + 1px);
+}
+
+#soft-skills {
+    width: 100%;
+    height: 400px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    background: url(../images/main.soft-skills/softSkillsBackgroud.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.soft-skills-content {
+    text-align: center;
+}
+
+#stacks {
+    width: 100vw;
+    height: 600px;
+    padding: 0 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+#stacks img {
+    width: 278px;
+}
+
+.stacks-content {
+    text-align: center;
+}
+
+#portifolio {
+    width: 100%;
+    padding: 0 40px 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.portifolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portifolio-content div {
+    width: 120px;
+    height: 120px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px -4px 16px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
