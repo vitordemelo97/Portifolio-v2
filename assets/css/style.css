@@ -53,7 +53,8 @@ main {
     justify-content: center;
     gap: 5px;
 
-    background: url(../images/main.home/homeBackground.png);
+    background: url(../images/main.home/homeBackground.png)  no-repeat;
+    background-size: cover;
 
     color: white;
 }
